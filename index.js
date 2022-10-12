@@ -1,5 +1,5 @@
-const p = 3 document.getElementById("")//first prime number
-const q = 11 document.getElementById("")//second prime number
+const p = document.getElementById("inputp").value//first prime number
+const q = document.getElementById("inputq").value//second prime number
 const areCoprimes = (num1, num2) => {
   const smaller = num1 > num2 ? num1 : num2;
   for (let ind = 2; ind < smaller; ind ++) {
@@ -27,10 +27,14 @@ function encrypt {
           } else {
             console.log("not a valid value for d")
           }
-    } else {
+
+      } else {
           console.log("not a valid value for e")
       }
-    } 
+    } else {
+       console.log("not valid e")
+    }
+} 
 
     
 }
