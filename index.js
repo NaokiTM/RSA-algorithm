@@ -19,7 +19,7 @@ function encrypt {
 
     if (e > 1 || e < r) {
       if ((areCoprimes(e,r)) == true) {
-          let e = 7
+          let e = 7 //change to html input value?
           let d = document.getElementById().value
 
           if ((d*e) % r = 1) {
